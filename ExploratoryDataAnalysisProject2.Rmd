@@ -2,7 +2,6 @@
 title: "Exploratory Data Analysis Project 2"
 author: "Ceyda"
 date: "14 09 2021"
-output: html_document
 ---
 
 ```{r setup, include=FALSE}
@@ -16,7 +15,6 @@ library(RColorBrewer)
 library(dplyr)
 library(ggplot2)
 library(rmarkdown)
-
 
 NEI <- readRDS("summarySCC_PM25.rds")
 SCC <- readRDS("Source_Classification_Code.rds")
